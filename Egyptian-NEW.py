@@ -104,7 +104,7 @@ storage = []#Stores the current cards that the winner of the round will get.
 
 nxtTurn = 'player1'#Stores the name of the player that should draw a card next.
 card1 = EH.pull_out_card(player1, nxtTurn)#Stores the card that is checked at the current turn
-card2=''#stores the card that has been drawn now.(the card that is being printed
+card2=''#stores the card that has been drawn now.(the card that is being printed)
 nxtTurn = 'player2'
 storage.append(card1)
 
