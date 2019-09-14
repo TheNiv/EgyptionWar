@@ -52,7 +52,7 @@ def royal_mode(cardsLeft,nxtTurn,card,storage,deck1,deck2):
     while cardsLeft > 0:
         b = input('click space to continue')
         continue_game(b)
-        if nxtTurn == 'player1':
+        if nxtTurn == 'player1':#its the same player's turn untill he draws a royal card or loses the round.
             card2 = EH.pull_out_card(deck1, nxtTurn)
         else:
             card2 = EH.pull_out_card(deck2, nxtTurn)
@@ -104,7 +104,7 @@ storage = []#Stores the current cards that the winner of the round will get.
 
 nxtTurn = 'player1'#Stores the name of the player that should draw a card next.
 card1 = EH.pull_out_card(player1, nxtTurn)#Stores the card that is checked at the current turn
-card2=''#stores the card that has been drew now.
+card2=''#stores the card that has been drawn now.(needs to check
 nxtTurn = 'player2'
 storage.append(card1)
 
