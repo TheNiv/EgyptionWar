@@ -1,7 +1,7 @@
 # EgyptionWar
 A program of the Egyption War game automatic simulator.
 How it works:
-The Egyption War game is based on slaps,who slaps the card pile first(faster reaction time)
+The Egyption War game is based on slaps,who slaps the card pile first(faster reaction time).
 In this program,when there is a possible slap,the player that didn't draw the last card is the one "slapping".
 And then he draws the next card.
 You need to click space as a continue button of each round.
